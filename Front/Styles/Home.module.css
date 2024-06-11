@@ -1,0 +1,315 @@
+
+.containerplus{
+  background-color: #F4F2F1;
+  width: 100%;
+  max-width: 100vw; /* Ensure it doesn't exceed viewport width */
+}
+
+.logo{
+  position: absolute; /* Position the logo absolutely */
+  top: 0; /* Position from the top */
+  left: 0; /* Position from the left */
+  z-index: 1; /* Set a higher z-index to make it appear above other elements */
+  width: 100%;
+  height: auto;
+}
+
+.container {
+    position: relative;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: flex-end; /* To align the text to the right side of the image */
+  }
+  
+  .partnerText {
+    position: absolute;
+    margin-top: 450px;
+    left: 65%; /* Adjust the left position as needed */
+    width: 30%; /* Adjust the width as needed */
+    font: Arista Pro Alternate;
+    transform: translateY(-50%);
+    background-color: transparent; /* Background color for better readability */
+    padding: 5px 10px;
+    font-size: 60px;
+    font-weight: bold;
+    z-index: 1; /* Set a higher z-index to make it appear above other elements */
+  }
+  
+  .signInButton {
+    position: absolute;
+    margin-top: 700px;
+    left: 80%; /* Adjust the left position as needed */
+    transform: translate(-50%, -50%);
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 200px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    background-color: #14a828; /* Green color for the button */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 50px; /* Add border radius for rounded corners */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold;
+    cursor: pointer; /* Add pointer cursor on hover */
+    z-index: 1; /* Set a higher z-index to make it appear above other elements */
+  }
+  
+  
+  .signInButton:hover {
+    background-color: darkgreen; /* Darker green color on hover */
+  }
+
+  .exclusiveText {
+    position: absolute;
+    top: 610px; /* Adjust this value as needed */
+    left: 1330px; /* Adjust this value to align with the button */
+    font-size: 16px; /* Adjust font size as needed */
+    color: black; /* Adjust text color as needed */
+    z-index: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  .fullWidthImage {
+    position: relative;
+    margin-top: 225px;
+    margin-left: -2px;
+    width: 100%;
+  }
+  
+  .overlayImage {
+    position: absolute;
+    top: 59%; /* Adjust position vertically */
+    left: 17%; /* Adjust position horizontally */
+    transform: translate(-50%, -50%);
+    max-width: 20%; /* Adjust the maximum width as needed */
+    max-height: 20%; /* Adjust the maximum height as needed */
+  }
+  .overlayImage2 {
+    position: absolute;
+    top: 45%; /* Adjust position vertically */
+    left: 55%; /* Adjust position horizontally */
+    transform: translate(-50%, -50%);
+    max-width: 20%; /* Adjust the maximum width as needed */
+    max-height: 20%; /* Adjust the maximum height as needed */
+  }
+  .overlayImage3 {
+    position: absolute;
+    top: 60%; /* Adjust position vertically */
+    left: 81%; /* Adjust position horizontally */
+    transform: translate(-50%, -50%);
+    max-width: 30%; /* Adjust the maximum width as needed */
+    max-height: 30%; /* Adjust the maximum height as needed */
+  }
+
+  .dd3 {
+    position: relative;
+    margin-top: -700px; /* Adjust this value as needed */
+    width: 100%;
+  }
+
+  .caption{
+    margin-top: -200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2d302e;
+  }
+
+  .phoneContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  .phone {
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 80px; /* Adjust the margin as needed */
+  }
+  
+  .double_phone {
+    position: absolute;
+    margin-top: 70%; /* Adjust position vertically */
+    margin-left: -400px;
+    transform: translate(-50%, -50%);
+    width: 30%; /* Adjust the width as needed */
+  }
+
+  .text3{
+    position: absolute;
+    top: 52%;
+    right: 76%;
+    font-size: 60px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .paragraphe3{
+    position: absolute;
+    top: 58%;
+    right: 40%;
+    max-width: 900px;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+
+  }
+
+  .cat1{
+    background-color: #F4F2F1;
+    max-width: 800px;
+    margin-top: -200px;
+    margin-left: -42px
+
+  }
+
+  .exploreGPS {
+    position: absolute;
+    margin-top: -500px;
+    left: 81%; /* Adjust the left position as needed */
+    transform: translate(-50%, -50%);
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 280px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    background-color: hsl(0, 0%, 73%); /* Green color for the button */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 50px; /* Add border radius for rounded corners */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold;
+    cursor: pointer; /* Add pointer cursor on hover */
+    z-index: 1; /* Set a higher z-index to make it appear above other elements */
+  }
+  
+  
+  .exploreGPS:hover {
+    background-color: hsl(140, 67%, 56%); /* Darker green color on hover */
+  }
+
+  .Explore_Monitor {
+    position: absolute;
+    margin-top: -1100px;
+    left: 17%; /* Adjust the left position as needed */
+    transform: translate(-50%, -50%);
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 280px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    background-color: hsl(0, 0%, 73%); /* Green color for the button */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 50px; /* Add border radius for rounded corners */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold;
+    cursor: pointer; /* Add pointer cursor on hover */
+    z-index: 1; /* Set a higher z-index to make it appear above other elements */
+  }
+  
+  
+  .Explore_Monitor:hover {
+    background-color: hsl(140, 67%, 56%); /* Darker green color on hover */
+  }
+
+  .food_ball{
+    margin-left: 500px;
+    margin-top: -50px;
+    max-width: 600px;
+    
+  }
+  
+  .takeCareTextContainer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%; /* Adjust the width as needed */
+    margin-left: 700px;
+    margin-top:-800px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .takeCareText2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+    margin-top: -90px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cart2{
+    background-color: white;
+  }
+  .line {
+    position: relative;
+    width: 100%;
+    margin: 0; /* Ensure no margin */
+    padding: 0; /* Ensure no padding */
+    z-index: 1;
+  }
+  
+  .line_dog{
+    position: relative;
+    max-width: 800px;
+    margin-top: -550px;
+    margin-left: 1000px;
+    margin-bottom: -200px;
+    z-index: 1;
+  }
+
+  .cat3 {
+    position: relative;
+    background-color: white;
+    margin-top: -270px;
+    display: flex; /* Ensure the flexbox layout */
+  }
+  
+  .collection {
+    width: 45%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+  }
+  
+  .social_icons {
+    margin-top: 600px; /* Push the social icons to the right */
+    margin-left: 300px;
+  }
+  
+  .social {
+    width: 70px;
+    margin-right: 30px; /* Adjust spacing between social icons */
+  }
+  
+  .Explore_website{
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set your desired color */
+    font-size: 30px;
+    font-family: Arial, sans-serif; /* Set your desired font */
+  }
+
+  .Explore_website:hover {
+    color: green; /* Change color to green on hover */
+  }
+
+  .Explore_Email{
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set your desired color */
+    font-size: 30px;
+    font-family: Arial, sans-serif; /* Set your desired font */
+  }
+
+  .env{
+    width: 35px;
+    height: 27px;
+    margin-right: 10px;
+    margin-top: 25px;
+  }
+
+  .web{
+    width: 35px;
+    height: 32px;
+    margin-right: 10px;
+    margin-top: 35px;
+  }

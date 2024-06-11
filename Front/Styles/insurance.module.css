@@ -1,0 +1,180 @@
+.fullWidthImage {
+    position: relative;
+    width: 100%;
+    margin-top: -20px;
+    
+  }
+
+  .signInButton {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 800px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 200px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    background-color: #14a828; /* Green color for the button */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 50px; /* Add border radius for rounded corners */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold;
+    cursor: pointer; /* Add pointer cursor on hover */
+    z-index: 1; /* Set a higher z-index to make it appear above other elements */
+  }
+
+  .signInButton:hover {
+    background-color: darkgreen; /* Darker green color on hover */
+  }
+
+  .p1{
+    font-size: 50px;
+    text-align: right;
+    margin-right: 180px;
+  }
+
+  .p2{
+    margin-left: 1030px;
+    font-size: 22px;
+    width: 600px;
+    text-align: center;
+  }
+  
+  .Happy{
+    width: 300px;
+    margin-top: -250px;
+    margin-left: 400px;
+  }
+
+  .container3{
+    background-color: #F4F2F1;
+  }
+
+  .p3{
+    font-size: 50px;
+    text-align: left;
+    margin-left: 170px;
+    margin-top: 100px;
+    padding-top: 180px;
+  }
+
+  .p4{
+    font-size: 22px;
+    text-align: center;
+    width: 600px;
+    margin-left: 200px;
+  }
+
+  .double{
+    width: 400px;
+    margin-left: 1200px;
+    margin-top: -300px;
+  }
+
+  .AppButton{
+    position: absolute;
+    display: flex; /* Use flexbox */
+    margin-top: -180px;
+    margin-left: 300px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 400px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    background-color: #14a828; /* Green color for the button */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 50px; /* Add border radius for rounded corners */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold;
+    cursor: pointer; /* Add pointer cursor on hover */
+    z-index: 1; /* Set a higher z-index to make it appear above other elements */
+  }
+
+  .AppButton:hover {
+    background-color: darkgreen; /* Darker green color on hover */
+  }
+
+  .p5{
+    font-size: 50px;
+    text-align: right;
+    margin-right: 250px;
+    padding-top: 50px;
+  }
+
+  .p6{
+    font-size: 22px;
+    text-align: center;
+    width: 600px;
+    margin-left: 1060px;
+  }
+
+  .happy2{
+    width: 400px;
+    margin-left: 200px;
+    margin-top: -300px;
+    margin-bottom: 50px;
+  }
+
+  .container5{
+    background-color: #F4F2F1;
+    height: 750px;
+  }
+
+  .p7{
+    font-size: 50px;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 100px;
+    padding-top: 180px;
+  }
+
+  .p8{
+    font-size: 22px;
+    text-align: center;
+    width: 600px;
+    margin-left: 200px;
+  }
+
+  .insured{
+    width: 400px;
+    margin-left: 1200px;
+    margin-top: -300px;
+  }
+
+  .insuranceButton{
+    position: absolute;
+    display: flex; /* Use flexbox */
+    margin-top: -70px;
+    margin-left: 300px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 400px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    background-color: #14a828; /* Green color for the button */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 50px; /* Add border radius for rounded corners */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold;
+    cursor: pointer; /* Add pointer cursor on hover */
+    z-index: 1; /* Set a higher z-index to make it appear above other elements */
+  }
+
+  .insuranceButton:hover {
+    background-color: darkgreen; /* Darker green color on hover */
+  }
+
+  .pp10{
+    width: 1850px;
+    margin-top: 50px;
+  }
+
+  
+.tab33{
+  position: relative;
+  width: 600px;
+  margin-left: 1040px;
+  margin-bottom: -700px;
+  z-index: 1000;
+}

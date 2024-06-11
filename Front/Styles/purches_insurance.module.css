@@ -1,0 +1,67 @@
+.Maincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-image: url('../public/image/aas.png');
+    background-size: cover;
+    background-position: center;
+    gap: 20px;
+  }
+  
+  .offersContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .container1:hover {
+    transform: scale(1.05);
+  }
+  
+  .tabImage {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .signInButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1fb64d;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .signInButton:hover {
+    background-color: #185e0f;
+    transform: scale(1.1);
+  }
+  
+  .captcha {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  

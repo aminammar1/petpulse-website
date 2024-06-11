@@ -1,0 +1,133 @@
+.relative {
+  position: relative;
+}
+
+.slideContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideImage {
+  width: 100%;
+  height: auto;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #000000; 
+}
+
+.arrowPrev {
+  left: 50px;
+  transform: translateY(-50%);
+  z-index: 2; /* Ensure the left arrow is above other elements */
+}
+
+.arrowNext {
+  right: 50px;
+  transform: translateY(-50%);
+  z-index: 2; /* Ensure the right arrow is above other elements */
+}
+
+.shop_color{
+  background-image: url('../public/image/aas.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.textIcon {
+  font-size: 24px;
+}
+
+.rotateIcon {
+  transform: rotate(180deg);
+}
+
+
+
+.title {
+  font-size: 32px; /* Increase title font size */
+  font-weight: bold;
+  color: #333333; /* Set title color */
+  margin-bottom: 30px; /* Add bottom margin */
+}
+
+
+.productGrid {
+  display: flex;
+  justify-content: center; /* Center products horizontally */
+  flex-wrap: wrap;
+  margin-top: 40px; /* Increase top margin */
+}
+
+.productLink {
+  background-color: #ffffff;
+  color: #333333;
+  padding: 25px; /* Adjust padding */
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(33.33% - 40px);
+  margin: 0 20px 20px 200px ;
+  transition: box-shadow 0.3s ease;
+  border-radius: 10px; /* Add border radius */
+  border: none; /* Remove border */
+}
+
+.productImage {
+  width: 280px; /* Increase width */
+  height: 220px; /* Adjust height */
+  object-fit: cover;
+}
+
+.productDetails {
+  margin-top: 20px;
+  width: 250px;
+}
+
+.productName,
+.productCategory,
+.productPrice {
+  width: 90%; /* Increase width */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.productName {
+  font-size: 25px; /* Adjust font size */
+  font-weight: bold;
+  margin-bottom: 10px; /* Adjust bottom margin */
+  text-decoration: none;
+}
+
+.productCategory,
+.productPrice {
+  font-size: 16px; /* Adjust font size */
+}
+
+.productLink:last-child {
+  margin-right: 0;
+}
+
+.productLink:hover .productImage {
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  to {
+    transform: scale(1.05);
+    filter: brightness(120%);
+  }
+}

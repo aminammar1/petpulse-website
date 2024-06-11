@@ -1,0 +1,8 @@
+:root{
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+}
+@import "leaflet/dist/leaflet.css";

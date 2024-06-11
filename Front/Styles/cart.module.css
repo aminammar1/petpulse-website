@@ -1,0 +1,94 @@
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #f5f5f586; /* Light gray background color */
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.bg{
+  background-image: url('../public/image/aas.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.itemImage {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.itemDetails {
+  flex-grow: 1;
+}
+
+.purchaseButton {
+  background-color: #4CAF50; /* Green color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Add padding */
+  border: none; /* Remove border */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s; /* Add transition effect */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.purchaseButton:hover {
+  background-color: #45a049; /* Darker green color when hovering */
+}
+
+.redDeleteButton {
+  margin: 5px;
+  background-color: #ff3333; /* Red color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Add padding */
+  border: none; /* Remove border */
+  cursor: pointer; /* Change cursor to pointer */
+  border-radius: 5px; /* Add slight border radius */
+  transition: background-color 0.3s; /* Add transition effect */
+}
+
+.redDeleteButton:hover {
+  background-color: #cc0000; /* Darker red color when hovering */
+}
+
+.totalPriceContainer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.totalPriceContainer p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.checkoutButton {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.checkoutButton:hover {
+  background-color: green;
+}
+
+.PurchaseButton {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.PurchaseButton:hover {
+  background-color: green;
+}

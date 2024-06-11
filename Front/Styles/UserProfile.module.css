@@ -1,0 +1,144 @@
+.profileContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.profileContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../public/image/omedog2.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+.titre {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profileImageContainer {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.profileImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.customFileInput {
+  margin: 10px 0;
+  display: none;
+}
+
+.fileInputLabel {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fileInputLabel:hover {
+  background-color: #0056b3;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.userInfo p {
+  margin: 5px 0;
+}
+
+.horizontalLine {
+  width: 80%;
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.offerBox {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #323331de;
+  border-radius: 5px;
+  background-color: #1b9e222c;
+  color: #000000;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: #30d630;
+}
+
+.deleteButton:hover {
+  background-color: #aa1616;
+}
+
+.logoutButton {
+  background-color: #92e049d0;
+  color: white;
+}
+
+.deleteButton {
+  background-color: #a00b0bb0;
+  color: white;
+  margin-left: 20px;
+
+}
+
+.CHAT{
+  background-color: #bfe049d0;
+  color: white;
+  margin-left: 20px;
+}
+
+.CHAT:hover {
+  background-color: #728335;
+}
+
+

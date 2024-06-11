@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    padding: 20px;
+    background-image: url('../public/image/aas.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .leftSide {
+    flex: 1;
+    padding-right: 20px;
+    margin-left: 130px;
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .rightSide {
+    flex: 1;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+  }
+  
+  .formBox {
+    width: 500px;
+    min-height: 600px;
+    padding: 20px;
+    border: 1px solid #afa7a7;
+    border-radius: 8px;
+    background-color: #e6ebe4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .input,
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+  
+  .textarea {
+    height: 200px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #51cc57;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #438546;
+  }
+  
+  .link {
+    color: green;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .info {
+    font-size: 1.2em;
+  }
+  
+  .email {
+    color: green;
+    font-size: 1.2em;
+  }
+  
+  .contact {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 120px;
+  }
+  
+  .contactDetail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    width: 26px;
+    height: 24px;
+    margin-right: 10px;
+  }
+
+  .iconi {
+    width: 29px;
+    height: 22px;
+    margin-right: 10px;
+  }
+  

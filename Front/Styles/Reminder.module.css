@@ -1,0 +1,100 @@
+.flexContainer,
+.blurBackground {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blurBackground {
+  width: 100%;
+  height: 100%;
+  background-image: url('../public/image/1.png'); /* Ensure correct path */
+  background-size: cover;
+  filter: blur(8px);
+  z-index: 10;
+}
+
+.flexContainer {
+  display: flex;
+  z-index: 20;
+}
+
+.h1{
+  text-align: center;
+  color: #6691749d;
+}
+
+.formContainer {
+  width: 700px; /* Increase width as needed */
+height:800px ;
+  padding: 40px 60px; /* Adjusted padding to add spacing on the sides */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color:white;
+}
+
+.form h2,
+.form label {
+  color: #333; /* Ensure text color consistency */
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form input[type="month"],
+.form select {
+  width: 100%; /* Make form fields wider */
+  padding: 12px; /* Increase padding for larger fields */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px; /* Increase font size */
+}
+
+.nameFields {
+  display: flex;
+  gap: 20px; /* Increase gap between name fields */
+}
+
+.inlineFields {
+  display: flex;
+  gap: 20px; /* Increase gap between inline fields */
+}
+
+.fieldContainer {
+  flex: 1;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 14px 0; /* Increase padding for the button */
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 18px; /* Increase font size */
+  background-color: #4fa036;
+}
+
+.submitButton:hover {
+  background-color: #0d640d;
+}
+
+.captcha{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 18px;
+  color: #3a5242b9;
+  
+}
+
+.pointer{
+  width: 200px;
+  margin-left: 35%;
+}
+
+.label{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

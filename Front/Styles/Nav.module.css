@@ -1,0 +1,281 @@
+.navbar {
+  background-color: #F4F2F1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  position: relative;
+  height: 140px;
+}
+
+.middleLinks {
+  display: flex;
+  gap: 50px;
+  margin-right: 90px;
+  margin-left: 50px;
+}
+
+.navLink {
+  color: black;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: color 0.3s;
+}
+
+.navLink:hover {
+  color: #14a828;
+}
+
+.linkText {
+  padding: 8px 12px;
+}
+
+.logo {
+  width: 270px;
+  height: auto;
+  margin-right: 60px;
+  margin-left: 310px;
+}
+
+.signImage {
+  width: 34px;
+  height: auto;
+  margin-left: -120px;
+}
+
+.languageContainer {
+  position: relative;
+  margin-right: -50px;
+}
+
+.languageSelector {
+  cursor: pointer;
+}
+
+.languageOptions {
+  position: absolute;
+  top: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 8px;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 200px;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
+
+.languageOptions li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.languageOptions li:last-child {
+  margin-bottom: 0;
+}
+
+.languageOptions li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.languageOptions li a:hover {
+  background-color: #e0e0e0;
+}
+
+.languageitem:hover {
+  background-color: #e6ffe6;
+  cursor: pointer;
+}
+
+.languageOptions option {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.languageIcon {
+  width: 32px;
+  height: auto;
+}
+
+.logolink {
+  max-width: 10px;
+  margin-left: 80px;
+  margin-right: -300px;
+}
+
+.cartImage {
+  width: 32px;
+}
+
+.trackersContainer {
+  position: relative;
+}
+
+.popupAngle {
+  transition: opacity 0.8s ease-in-out;
+}
+
+.trackersContainer:hover .popupAngle,
+.popupAngle:hover {
+  display: block;
+  opacity: 1;
+}
+
+.popupAngle {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  border-radius: 8px;
+  z-index: 1000;
+  opacity: 0;
+}
+
+.popupImageLeft {
+  position: absolute;
+  top: 30px;
+  left: -300px;
+  width: 200px;
+  height: auto;
+}
+
+.popupImageRight {
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  width: 200px;
+  height: auto;
+}
+
+.popupImageLeft:hover,
+.popupImageRight:hover {
+  animation: pulseAnimation 1s infinite alternate;
+}
+
+@keyframes pulseAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.popupAngle::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 10px);
+  border-width: 10px 10px 0;
+  border-style: solid;
+  border-color: #ddd transparent;
+}
+
+.trackersContainer:hover .popupAngle {
+  display: block;
+}
+
+/* Cart container and icon */
+.cartContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.cartIcon {
+  position: relative;
+  margin-right: 10px;
+}
+
+.cartImage {
+  width: 32px;
+}
+
+.cartItemCount {
+  position: absolute;
+  top: 13px;
+  right: -10px;
+  background-color: #000000;
+  color: white;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.greenBackground {
+  background-color: green;
+}
+
+.background-image {
+  background-image: url('C:/Users/MSI//PetPuls/Front/public/image/pp.4.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pp {
+  position: relative;
+  width: 290px;
+  margin-left: -150px;
+  margin-right: -420px;
+  margin-top: -160px;
+  transform: rotate(120deg);
+  z-index: 1000;
+}
+
+.pp2 {
+  position: relative;
+  width: 175px;
+  transform: rotate(200deg);
+  margin-top: -210px;
+  z-index: 1000;
+
+}
+
+.popupInsurance {
+  position: absolute;
+  top: 65%;
+  left: 40%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  opacity: 0;
+  animation: fadeIn 0.3s ease forwards; /* Animation added */
+}
+
+.popupInsurance a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.popupInsurance a:hover {
+  background-color: #f9f9f9;
+}
+
+.insuranceContainer:hover .popupInsurance {
+  animation: fadeIn 0.3s ease forwards; /* Reapply animation on hover */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px); /* Slide up effect */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

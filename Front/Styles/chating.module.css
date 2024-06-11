@@ -1,0 +1,162 @@
+
+  
+  .centeredWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to viewport height */
+    overflow: hidden; /* Prevent scrolling of the entire page */
+    position: fixed; /* Fix the wrapper position */
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  /* Your existing styles */
+  
+  .blurBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../public/image/17.png');
+    background-size: cover;
+    filter: blur(8px);
+    z-index: 1; /* Lower z-index for the background image */
+  }
+  
+  .chat_wrapper {
+    position: relative; /* Ensure the wrapper is positioned relative */
+    z-index: 2; /* Higher z-index for the chat wrapper */
+  }
+  
+  .chat_window {
+    width: 800px; /* Adjust the width as needed */
+    max-width: 800px; /* You can adjust this value */
+    height: 600px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0a0505;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f8f8f8d5;
+  }
+  
+  .chat_header {
+    background-color: #16521be1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .chat_body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .message_container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  #you {
+    justify-content: flex-end;
+  }
+  
+  #other {
+    justify-content: flex-start;
+  }
+  
+  .message div {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+  }
+  
+  /* Your existing styles */
+
+.sentMessage {
+    justify-content: flex-end; /* Align messages sent by the user to the right */
+  }
+  
+  .receivedMessage {
+    justify-content: flex-start; /* Align messages received from other users to the left */
+  }
+  
+
+  .message_content {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    overflow-wrap: break-word; /* Allow long words to break and wrap */
+  }
+  
+  .sentMessage .message_content {
+    background-color: #d1e7dd; /* Green background for sent messages */
+  }
+  
+  .receivedMessage .message_content {
+    background-color: #e1ffc7; /* Blue background for received messages */
+  }
+  
+  .message-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #666;
+  }
+  
+  #time {
+    margin-right: 10px;
+  }
+  
+  .chat_footer {
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #ffffff77;
+    display: flex;
+    align-items: center; /* Center content vertically */
+  }
+  
+  .chat-footer input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .chat-footer button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .chat-footer button:hover {
+    background-color: #0056b3;
+  }
+  
+  .chat_area {
+    flex: 1; /* Take remaining space */
+    padding: 10px;
+    border: 1px solid #cccccc00;
+    border-radius: 5px;
+    margin-right: 40px;
+    font-size: 16px; /* Adjust font size */
+  }
+  

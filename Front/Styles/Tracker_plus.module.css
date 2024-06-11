@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 180px;
+  }
+  
+  .image {
+    margin-right: 20px; /* Adjust spacing between image and details */
+  }
+  
+  .image img {
+    width: 400px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 40px;
+  }
+  
+  .details {
+    text-align: left; /* Align text in details section */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Additional styles */
+  
+  .details h1 {
+    font-size: 60px; /* Increase title font size */
+    color: #333; /* Example color */
+  }
+  
+  .details p {
+    font-size: 20px;
+    color: #666; /* Example color */
+  }
+  .details .additional_text {
+    max-width: 100%;
+    display: inline-block; /* or display: inline; */
+    vertical-align: top; /* Adjust vertical alignment if needed */
+    margin-right: 10px; /* Adjust spacing between paragraph and button */
+  }
+
+  .additional_text {
+    font-size: 14px;
+    color: #777; /* Example color */
+  }
+  
+  .button {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #4caf50; /* Green color */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Darker shade of green on hover */
+  }
+  
+  .paymentImage {
+    display: block;
+    margin-left: 40px;
+    margin-top: 30px; /* Adjust spacing between button and payment image */
+    max-width: 400px; /* Ensure the image does not exceed its container width */
+    align-items: center;
+  }
+
+  .counter {
+    margin-left: 20px;
+    margin-top: 10px; /* Adjust spacing between payment image and counter */
+    margin-bottom: 30px;
+  }
+  
+  .counter button {
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .counter button:hover {
+    background-color: #e0e0e0; /* Darker gray background on hover */
+  }
+  
+  .counter span {
+    margin: 0 10px; /* Adjust spacing between buttons and quantity */
+    font-size: 18px;
+  }
+  
+  .shipping_Image{
+    margin-top: 20px;
+    padding-left: 80px;
+  }
+
+  .rating {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .filledStar {
+    color: #ffc107; /* Yellow color */
+    cursor: pointer;
+  }
+  
+  .emptyStar {
+    color: #ccc; /* Light gray color */
+    cursor: pointer;
+  }
+  

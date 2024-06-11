@@ -1,0 +1,206 @@
+/* Common Styles */
+.flexContainer,
+.blurBackground {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blurBackground {
+    width: 100%;
+    height: 100%;
+    background-image: url('../public/image/1.png'); /* Ensure correct path */
+    background-size: cover;
+    filter: blur(8px);
+    z-index: 10;
+}
+
+.flexContainer {
+    display: flex;
+    z-index: 20;
+}
+
+.cartItemsContainer {
+    width: 540px;
+    height: 510px; /* Set a fixed height */
+    overflow-y: auto; /* Add vertical scrollbar when content exceeds container height */
+    padding: 20px;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    background-color: #F9F5F5;
+}
+
+.cartItemsContainer::-webkit-scrollbar {
+    width: 0; /* Make scrollbar invisible */
+    height: 0;
+}
+
+.cartItemImage {
+    width: 90px; /* Increased width */
+    height: 100px; /* Increased height */
+    margin-right: 20px; /* Increased spacing between image and text */
+}
+
+.cartItemsContainer li {
+    margin-bottom: 30px; /* Increased spacing between items */
+    position: relative; /* Added position relative */
+}
+
+.cartItemsContainer li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Adjust border color */
+}
+
+.cartItemsContainer li .productDetails p {
+    margin: 5px 0; /* Adjust spacing */
+    text-align: right; /* Align price and quantity to the right */
+}
+
+.cartItemsContainer li .productDetails p.productName {
+    font-weight: bold; /* Make product name bold */
+    text-align: left; /* Align product name to the left */
+}
+
+.cartItemsContainer li .productDetails p.productPrice {
+    color: #14a828; /* Price color */
+    text-align: right; /* Align product price to the right */
+}
+
+.cartItemsContainer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+.totalPrice {
+    margin-top: 20px; /* Add spacing between items and total price */
+    margin-left: 180px;
+    color: #14a828;
+    font-size: large;
+}
+
+.paymentFormContainer {
+    width: 300px; /* Increase width as needed */
+    max-height: calc(100vh - 80px); /* Adjust height to fit remaining space */
+    padding: 40px 100px; /* Adjusted padding to add spacing on the sides */
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.paymentForm h2,
+.paymentForm label {
+    color: #333; /* Ensure text color consistency */
+}
+
+.paymentForm input[type="text"],
+.paymentForm input[type="email"],
+.paymentForm select,
+.cardInfo input[type="text"] {
+    width: 100%; /* Make payment fields wider */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cardInfo #expiration-date,
+.cardInfo #cvv {
+    flex-basis: calc(50% - 5px); /* Adjusted width for both fields */
+    margin-right: 5px; /* Ensure margin between fields */
+    display: inline-block; /* Display fields inline */
+}
+
+.cardIcons {
+    position: absolute;
+    right: 10px;
+    top: 15%;
+    transform: translateY(-50%);
+}
+
+.cardIcons img {
+    width: 30px;
+    margin-left: 5px;
+}
+
+.submitButton,
+.paymentForm button {
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submitButton {
+    background-color: #007bff;
+}
+
+.submitButton:hover {
+    background-color: #0056b3;
+}
+
+.paymentForm button {
+    background-color: #14a828;
+}
+
+.paymentForm button:hover {
+    background-color: #017715;
+}
+
+.productItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.productContainer {
+    display: flex;
+    align-items: center;
+}
+
+.productDetails {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 20px;
+    align-items: flex-start; /* Align product names to the start */
+}
+
+.productDetails p {
+    margin: 5px 0; /* Adjust spacing */
+    text-align: left; /* Align text to the left */
+}
+
+.productName {
+    font-weight: bold;
+    text-align: left; /* Align product name to the left */
+}
+
+.productPrice {
+    color: #14a828;
+    text-align: right; /* Align product price to the right */
+}
+
+.pp{
+    width: 200px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}

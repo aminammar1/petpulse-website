@@ -1,0 +1,33 @@
+.mainContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Ajustez selon vos besoins */
+}
+
+.blurBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7); /* Ajustez selon vos besoins */
+  backdrop-filter: blur(10px);
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cartItemsContainer {
+  position: relative;
+  width: 80%;
+  height: 80%; /* Ajustez selon vos besoins */
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
